@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.ArrayList;
 
-public class Sumthing {
+public class RECOVEREDSumthing {
 
     public static Integer onlyOddsSum(ArrayList<Integer> integers) {
         int sum = 0;

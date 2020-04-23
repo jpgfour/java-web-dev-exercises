@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class WordsofACertainLength {
+public class RECOVEREDWordsofACertainLength {
 
     public static void main(String[] args) {
 
@@ -22,12 +22,12 @@ public class WordsofACertainLength {
         words2 = Arrays.asList(str);
 
 
-            Scanner input = new Scanner(System.in);
-            System.out.println("How many letters you want to look for?");
-            int letterCount = input.nextInt();
+        Scanner input = new Scanner(System.in);
+        System.out.println("How many letters you want to look for?");
+        int letterCount = input.nextInt();
 
-            for (String word : words2) {
-                if (word.length() == letterCount) System.out.println(word);
-            }
+        for (String word : words2) {
+            if (word.length() == letterCount) System.out.println(word);
         }
     }
+}

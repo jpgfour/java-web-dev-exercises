@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class GradeBookHashMapDupe {
+public class RECOVEREDGradeBookHashMapDupe {
 
     public static void main(String[] args) {
 
