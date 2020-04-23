@@ -12,17 +12,17 @@ public class Class2ArrayListPracticeItem1 {
             integers.add(i);
         }
 
+        //code method call here
+
 
         //move below to separate method
-//        int sum = 0;
-//
-//        for( Integer j: integers) {
-//            if (integers.get(j) % 2 == 0) {
-//                sum += integers.get(j);
-//            }
-//        }
+        int sum = 0;
 
-        //code method call here
-        System.out.println(Sumthing.onlyOddsSum(integers));
+        for( Integer j: integers) {
+            if (integers.get(j) % 2 == 0) {
+                sum += integers.get(j);
+            }
+        }
+        System.out.println(sum);
     }
 }
