@@ -1,6 +1,6 @@
 package org.launchcode.java.demos.lsn6inheritance;
 
-public abstract class Cat {
+public class Cat {
 
     private boolean tired = false;
     private boolean hungry = false;
@@ -11,6 +11,10 @@ public abstract class Cat {
 
     public Cat (double aWeight) {
         weight = aWeight;
+    }
+
+    //added to make text demo work
+    public Cat() {
     }
 
     /**** Getters and Setters ****/
