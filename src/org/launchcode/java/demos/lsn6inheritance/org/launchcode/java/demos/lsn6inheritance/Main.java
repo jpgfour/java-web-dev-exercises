@@ -5,7 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //things designed to fail to prove a point
         HouseCat mittens = new HouseCat(8.4);
+        Cat salem = new Cat(8);
 
         HouseCat garfield = new HouseCat("Garfield", 12);
         garfield.eat();
