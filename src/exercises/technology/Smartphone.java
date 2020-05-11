@@ -34,6 +34,14 @@ public class Smartphone extends Laptop {
         this.dataPlanMB = aDataPlanMB;
     }
 
+    public double getMonthlyCharge() {
+        return monthlyCharge;
+    }
+
+    public void setMonthlyCharge(double aMonthlyCharge) {
+        this.monthlyCharge = aMonthlyCharge;
+    }
+
     public void changePhonePlan(String carrier, int dataPlanMB, double monthlyCharge) {
         this.carrier = carrier;
         this.dataPlanMB = dataPlanMB;
