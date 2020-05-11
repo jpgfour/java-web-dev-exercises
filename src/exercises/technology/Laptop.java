@@ -8,10 +8,14 @@ public class Laptop extends Computer {
     private int screenSize;
     private double percentCharged;
 
-    public Laptop(String aName, String aManufacturer, String aModel, String aOperatingSystem, int aScreenSize, double aMaxBatteryLifeHours) {
-        super(aName, aManufacturer, aModel, aOperatingSystem);
-        maxBatteryLifeHours = aMaxBatteryLifeHours;
-        screenSize = aScreenSize;
+    public Laptop(String name, String manufacturer, String model, String operatingSystem, int screenSize, double maxBatteryLifeHours) {
+        super(name, manufacturer, model, operatingSystem);
+        this.maxBatteryLifeHours = maxBatteryLifeHours;
+        this.screenSize = screenSize;
+    }
+
+    public Laptop(String operatingSystem) {
+        super();
     }
 
     public boolean isPluggedIn() {

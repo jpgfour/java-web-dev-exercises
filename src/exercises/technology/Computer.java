@@ -17,6 +17,10 @@ public class Computer {
         this.operatingSystem = operatingSystem;
     }
 
+    public Computer() {
+
+    }
+
 
     //getters and setters
     public String getName() {
