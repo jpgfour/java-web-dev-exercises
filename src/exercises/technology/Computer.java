@@ -1,6 +1,8 @@
 package exercises.technology;
 
-public class Computer {
+import java.util.UUID;
+
+public class Computer extends AbstractIdentity{
 
     private String name;
     private String manufacturer;
@@ -82,4 +84,9 @@ public class Computer {
         online = false;
     }
 
+    @Override
+    public UUID generateUUID() {
+        UUID uuid = UUID.randomUUID();
+        return uuid;
+    }
 }
