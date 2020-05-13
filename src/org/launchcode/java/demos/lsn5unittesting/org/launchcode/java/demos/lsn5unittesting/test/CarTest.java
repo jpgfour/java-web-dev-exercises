@@ -1,6 +1,5 @@
 package org.launchcode.java.demos.lsn5unittesting.test;
 
-import jdk.jfr.StackTrace;
 import org.junit.Before;
 import org.junit.Test;
 import org.launchcode.java.demos.lsn5unittesting.main.Car;
